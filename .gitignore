@@ -1,0 +1,26 @@
+Entornos virtuales
+.venv/
+env/
+ENV/
+
+# Caches de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches de pruebas y calidad
+.pytest_cache/
+.ruff_cache/
+
+# Streamlit logs y estado local
+.streamlit/secrets.toml
+
+# IDE y editores locales
+.vscode/*
+!.vscode/tasks.json
+.idea/
+*.swp
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
